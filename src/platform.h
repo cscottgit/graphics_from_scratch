@@ -12,7 +12,8 @@
 
 
 //void log(const char *msg);
-static void log(const char* msg){printf("%s\n", msg);}
+//static void log(const char* msg){printf("%s\n", msg);}
+void log(const char* msg);
 
 #define clr_strcut_t(x, y) memset(x, 0x0, sizeof(y))
 #define clr_strcut(x) memset(x, 0x0, sizeof(*x))

@@ -1,5 +1,6 @@
 #include "platform.h"
 
+void log(const char* msg){printf("%s\n", msg);}
 
 
 //=========================================================
